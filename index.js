@@ -39,7 +39,6 @@ async function treinarModelo() {
       break;
     }
   }
-
   // Testar o modelo com novos dados
   const novoValor = readlineSync.questionFloat("Digite um novo valor para prever: ");
   const previsao = model.predict(tf.tensor2d([[novoValor]])).arraySync();

@@ -52,3 +52,6 @@ treinarModelo().then(() => {
 }).catch(err => {
   console.error("Erro durante o processo: ", err);
 });
+
+
+
